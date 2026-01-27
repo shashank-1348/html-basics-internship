@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Normal Table</h1>
+    <table border="5" rules="all" width="600px" height="100px" style="text-align: center; margin: auto;"  >
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Rating</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Asus Laptop - 8GB</td>
+            <td>31000/-</td>
+            <td>4.1</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>Oppo Reno 3- 6GB</td>
+            <td>27000/-</td>
+            <td>4.3</td>
+            <td>5</td>
+        </tr>
+
+    </table>
+
+
+     <h1>Table with cell padding cell spacing</h1>
+    <table border="5" cellpadding="10" cellspacing="4" style="text-align: center; margin: auto;"  >
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Rating</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Asus Laptop - 8GB</td>
+            <td>31000/-</td>
+            <td>4.1</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>Oppo Reno 3- 6GB</td>
+            <td>27000/-</td>
+            <td>4.3</td>
+            <td>5</td>
+        </tr>
+
+    </table>
+
+    <h1>Table- Merged Cells</h1>
+    <table border="1"  cellpadding="10" rules="all" width="250px" style="margin: auto;">
+        <tr>
+            <th colspan="3">1,2,3</th>
+           
+            <th>4</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th rowspan="2">8,<br>12</th>
+        </tr>
+        <tr>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+           
+        </tr>
+    </table>
+
+    <h1>Sample Table-1</h1>
+
+    <table border="1"  cellpadding="10" rules="all" width="250px" style="margin: auto;">
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red <br>eyes</th>
+        </tr>
+        <tr>
+           <th>height</th>
+           <th>weight</th>
+        </tr>
+        <tr>
+            <th>Male</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+        <tr> 
+           <th>Female</th>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+        </tr>
+    </table>
+
+    <h1>Sample Table-2</h1>
+
+    <table border="1"  cellpadding="10" rules="all" width="250px" style="margin: auto;">
+
+    <tr>
+        <td colspan="2">cell 1</td>
+        <td>cell 2</td>
+        <td>cell 3</td>
+    </tr>
+    <tr>
+        <td rowspan="3">cell 4</td>
+        <td>cell 5</td>
+        <td>cell 6</td>
+        <td>cell 7</td>
+    </tr>
+    <tr>
+        <td colspan="3">cell 8</td>
+    </tr>
+    <tr>
+        <td>cell 9</td>
+        <td colspan="2">cell 10</td>
+    </tr>
+
+    </table>
+
+    <h1>Sample table-3</h1>
+    <table border="1"  cellpadding="10" cellspacing="5" width="750px" style="margin: auto;">
+            <tr>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Info </th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td rowspan="6">System</td>
+                <td rowspan="4"> System Apps</td>
+                <td rowspan="3"> SystemEnv</td>
+                <td>App Test</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+
+                <td>App Memory</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td>System env2</td>
+                <td>App test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td rowspan="2">System memory</td>
+                <td rowspan="2"> Memory test</td>
+                <td>Memory func</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>Apes test</td>
+                <td>foo</td>
+            </tr>
+
+    </table>
+
+    <h1>Sample Table 3</h1>
+
+    <table border="1"  cellpadding="10" cellspacing="5" width="450px" style="margin: auto;">
+        <tr style="background-color: rgb(61, 209, 209);">
+            <th >Device</th>
+            <th>Brand</th>
+            <th>Specification</th>
+
+        </tr>
+        <tr>
+            <td >Smartphone</td>
+            <td >Apple</td>
+            <td> 
+                <table border="1"  cellpadding="10" cellspacing="5" width="250px" style="margin: auto;">
+                <tr style="background-color: rgb(136, 255, 0);">
+                     <th >Model</th>
+                     <th>Storage</th>
+
+                </tr>
+
+                <tr>
+                    <td>iPhone 12 Pro</td>
+                    <td>256GB</td>
+                </tr>
+
+                <tr>
+                    <td>iPhone SE</td>
+                    <td>128GB</td>
+                </tr>
+               
+            </table></td>
+           
+        </tr>
+        <tr>
+            <td>Laptop</td>
+            <td>HP</td>
+            <td>15.6 "Display</td>
+        <tr>
+            <td>Tablet</td>
+            <td>Samsung</td>
+            <td>10.5" Display</td>
+        </tr>
+       
+    </table>
+
+</body>
+</html>
