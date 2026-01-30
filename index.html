@@ -6,66 +6,77 @@
     <title>Document</title>
 </head>
 <body>
-   
+    
+    <h1>Registration Form</h1>-
+    <fieldset>
+        <legend style="text-align: center;">Registration Form</legend>
+        <form action="redirection url" method="post">
+            <label for="fullname" >Full Name</label>
+            <br>
+            <input  id="fullname" type="text" placeholder="enter full name" maxlength="15" minlength="3" required value="Ex: Jhon" size="100" >
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Enter your email"   value="Ex:shashankgowdas1122@gmail.com" size="80" >
+             <br>
+             <br>
 
-
-        <fieldset style="background-color: rgb(29, 146, 146);">
-             <h1 style="text-align: center; color: white;" >Application Form</h1>
-            <form action="post">
-
-            <label for="fname" style="color: white;">First Name</label>
-            <input type="text" id="fname">
-
-            <label for="lname"style="color: white;">Last Name</label>
-            <input type="text" id="lname">
-            <br><br>
-
-            <label for="dob"style="color: white;">Date of Birth</label>
-            <input type="date" name="dob" id="dob">
-
-            <label for="age"style="color: white;">Age</label>
-            <input type="number" if="age">
-            <br><br>
-
-            <label for="gender" style="color: white;">Gender</label>
-            <select name="gender" id="gender">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-
-            <label for="email" style="color: white;">Email</label>
-            <input type="email" id="email">
-            <br><br>
-
-            <p style="color: white;">Positions Available:</p>
-
-            <input type="radio" name="positions" value="Junior" id="junior">
-            <label for="junior" style="color: white;">Junior Developer</label>
-            
-                <input type="radio" name="positions" value="Mid Level" id="midLevel">
-            <label for="midLevel" style="color: white;">Mid Level Developer</label>
-
-                <input type="radio" name="positions" value="Senior" id="senior">
-            <label for="senior" style="color: white;">Senior Developer</label>
-
-            <p style="color: white;">Lanuages Known:</p>
-            <input type="checkbox" name="language" id="java">
-            <label for="java"style="color: white;">Java</label>
-
-             <input type="checkbox" name="language" id="c++">
-            <label for="c++" style="color: white;">C++</label>
-
-             <input type="checkbox" name="language" id="python">
-            <label for="python"style="color: white;">Python</label>
+             <label for="password">Password</label>
+             <br>
+             <input type="password" name="" id="password" placeholder="Enter your password">
+             <br>
+             <br>
+            <label for="phone">Telephone no.</label>
+            <br>
+            <input type="tel" placeholder="Enter mobile number" required pattern="^\+[1-9]\d{1,14}$">
              <br><br>
-            <label for="password" style="color: white;">Password</label>
-            <input type="password" id="password">
+
+             <input type="file" accept=".pdf,.jpg" multiple>
+             <br><br>
+            <label for="quantity">Quantity</label>
+            <br>
+             <input type="number" min="1" max="10">
+             <br><br>
+            <label for="">date</label>
+            <br>
+             <input type="date">
+
+             <br><br>
+            <label for="">Range</label>
+            <br>
+             <input type="range" name="range" >
+
            
 
-            <label for="cpassword" style="color: white;">Confirm Password</label>
-            <input type="password" id="cpassword">
+            <br><br>
+
+            <input type="checkbox" id="tandc">
+            <label for="tandc"> Accept terms and conditions</label>
+            <br><br>
+
+            <input type="radio" id="male"  name="gender">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female"  name="gender">
+            <label for="female">Female</label>
+
+            <input type="radio" id="others"  name="gender">
+            <label for="others">Others</label>
+
+            <br><br>
+
+            <input type="reset">
+
+            <input type="submit">
+
+
+
+            <br>
+            <br>
+             <button type="submit"> Register</button>
+           
         </form>
-        </fieldset>
-   
+    </fieldset>
 </body>
 </html>
