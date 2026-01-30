@@ -6,10 +6,66 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="./image.png" alt="">
-    <img src="./capri-790722_1920.jpg" alt="" height="200px" width="200px">
-    <audio src="./simple-acoustic-folk-138360.mp3" controls loop muted></audio>
+   
 
-    <video src="./video.mp4" height="200px" width="200px" controls loop muted autoplay></video>
+
+        <fieldset style="background-color: rgb(29, 146, 146);">
+             <h1 style="text-align: center; color: white;" >Application Form</h1>
+            <form action="post">
+
+            <label for="fname" style="color: white;">First Name</label>
+            <input type="text" id="fname">
+
+            <label for="lname"style="color: white;">Last Name</label>
+            <input type="text" id="lname">
+            <br><br>
+
+            <label for="dob"style="color: white;">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+
+            <label for="age"style="color: white;">Age</label>
+            <input type="number" if="age">
+            <br><br>
+
+            <label for="gender" style="color: white;">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <label for="email" style="color: white;">Email</label>
+            <input type="email" id="email">
+            <br><br>
+
+            <p style="color: white;">Positions Available:</p>
+
+            <input type="radio" name="positions" value="Junior" id="junior">
+            <label for="junior" style="color: white;">Junior Developer</label>
+            
+                <input type="radio" name="positions" value="Mid Level" id="midLevel">
+            <label for="midLevel" style="color: white;">Mid Level Developer</label>
+
+                <input type="radio" name="positions" value="Senior" id="senior">
+            <label for="senior" style="color: white;">Senior Developer</label>
+
+            <p style="color: white;">Lanuages Known:</p>
+            <input type="checkbox" name="language" id="java">
+            <label for="java"style="color: white;">Java</label>
+
+             <input type="checkbox" name="language" id="c++">
+            <label for="c++" style="color: white;">C++</label>
+
+             <input type="checkbox" name="language" id="python">
+            <label for="python"style="color: white;">Python</label>
+             <br><br>
+            <label for="password" style="color: white;">Password</label>
+            <input type="password" id="password">
+           
+
+            <label for="cpassword" style="color: white;">Confirm Password</label>
+            <input type="password" id="cpassword">
+        </form>
+        </fieldset>
+   
 </body>
 </html>

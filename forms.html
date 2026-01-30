@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>Registration Form</h1>-
+    <fieldset>
+        <legend style="text-align: center;">Registration Form</legend>
+        <form action="redirection url" method="post">
+            <label for="fullname" >Full Name</label>
+            <br>
+            <input  id="fullname" type="text" placeholder="enter full name" maxlength="15" minlength="3" required value="Ex: Jhon" size="100" >
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Enter your email"   value="Ex:shashankgowdas1122@gmail.com" size="80" >
+             <br>
+             <br>
+
+             <label for="password">Password</label>
+             <br>
+             <input type="password" name="" id="password" placeholder="Enter your password">
+             <br>
+             <br>
+            <label for="phone">Telephone no.</label>
+            <br>
+            <input type="tel" placeholder="Enter mobile number" required pattern="^\+[1-9]\d{1,14}$">
+             <br><br>
+
+             <input type="file" accept=".pdf,.jpg" multiple>
+             <br><br>
+            <label for="quantity">Quantity</label>
+            <br>
+             <input type="number" min="1" max="10">
+             <br><br>
+            <label for="">date</label>
+            <br>
+             <input type="date">
+
+             <br><br>
+            <label for="">Range</label>
+            <br>
+             <input type="range" name="range" >
+
+            <button type="submit"> Register</button>
+           
+        </form>
+    </fieldset>
+</body>
+</html>
